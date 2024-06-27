@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/sequoia.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Sequoia Corretora</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body class="navbar">
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/11.png" width="115px" height="115px">
+        </a>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="w-100 img-fluid d-md-none"
+            src="./assets/Mobile/fundo1-mobile.png"
+            alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás."
+          />
+          <img
+            class="w-100 img-fluid d-none d-md-block d-xl-none"
+            src="./assets/Tablet/fundo1-tablet.png"
+            alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás."
+          />
+          <img
+            class="w-100 img-fluid d-none d-xl-block"
+            src="./assets/Desktop/fundo1-desktop.png"
+            alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="w-100 img-fluid d-md-none"
+            src="./assets/Mobile/fundo2-mobile.png"
+            alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa."
+          />
+          <img
+            class="w-100 img-fluid d-none d-md-block d-xl-none"
+            src="./assets/Tablet/fundo2-tablet.png"
+            alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa."
+          />
+          <img
+            class="w-100 img-fluid d-none d-xl-block"
+            src="./assets/Desktop/fundo2-desktop.png"
+            alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="w-100 img-fluid d-md-none"
+            src="./assets/Mobile/fundo3-mobile.png"
+            alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa."
+          />
+          <img
+            class="w-100 img-fluid d-none d-md-block d-xl-none"
+            src="./assets/Tablet/fundo3-tablet.png"
+            alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa."
+          />
+          <img
+            class="w-100 img-fluid d-none d-xl-block"
+            src="./assets/Desktop/fundo3-desktop.png"
+            alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+    <section class="texto1">
+    <h2>Busque por categoria</h2>
+    </section>
+    <div class="container row mx-auto g-4">
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div class="card rounded-0 border-0">
+          <img
+            class="d-md-none d-block"
+            src="./assets/Mobile/categorias/categoria-previdencia.png"
+            alt="Dinheiro ." 
+          />
+          <img
+            class="d-none d-md-block d-xl-none"
+            src="./assets/Tablet/categorias/categoria-previdencia.png"
+            alt="Dinheiro."
+          />
+          <img
+            class="d-none d-xl-block"
+            src="./assets/Desktop/categorias/categoria-previdencia.png"
+            alt="Dinheiro."
+          />
+          <div class="card-header bg-success text-bg-dark">
+            <p class="text-center card-text">Previdência</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div class="card rounded-0 border-0">
+          <img
+            class="d-md-none d-block"
+            src="./assets/Mobile/categorias/categoria-medico.png"
+            alt="Medico."
+          />
+          <img
+            class="d-none d-md-block d-xl-none"
+            src="./assets/Tablet/categorias/categoria-medico.png"
+            alt="Médico ."
+          />
+          <img
+            class="d-none d-xl-block"
+            src="./assets/Desktop/categorias/categoria-medico.png"
+            alt="Medico."
+          />
+          <div class="card-header bg-success text-bg-dark">
+            <p class="text-center card-text">Convênio</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div class="card rounded-0 border-0">
+          <img
+            class="d-md-none d-block"
+            src="./assets/Mobile/categorias/categoria-dentista.png"
+            alt="Par de tênis unisse branca e traços na cores laranja, azul, verde e cadarço vermelho, em fundo verde limão."
+          />
+          <img
+            class="d-none d-md-block d-xl-none"
+            src="./assets/Tablet/categorias/categoria-dentista.png"
+            alt="Par de tênis unissex com cor predominante branca e traços na cores laranja, azul, verde e cadarço vermelho, em fundo verde limão."
+          />
+          <img
+            class="d-none d-xl-block"
+            src="./assets/Desktop/categorias/categoria-dentista.png"
+            alt="Par de tênis unissex com cor predominante branca e traços na cores laranja, azul, verde e cadarço vermelho, em fundo verde limão."
+          />
+          <div class="card-header bg-success text-bg-dark">
+            <p class="text-center card-text">Odontológico</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div class="card rounded-0 border-0">
+          <img
+            class="d-md-none d-block"
+            src="./assets/Mobile/categorias/categoria-segurovida.png"
+            alt="Óculos de Sol com lentes arredondadas e armação dourada, em fundo verde limão."
+          />
+          <img
+            class="d-none d-md-block d-xl-none"
+            src="./assets/Tablet/categorias/categoria-segurovida.png"
+            alt="Óculos de Sol com lentes arredondadas e armação dourada, em fundo verde limão."
+          />
+          <img
+            class="d-none d-xl-block"
+            src="./assets/Desktop/categorias/categoria-segurovida.png"
+            alt="Óculos de Sol com lentes arredondadas e armação dourada, em fundo verde limão."
+          />
+          <div class="card-header bg-success text-bg-dark">
+            <p class="text-center card-text">Seguro de vida</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="texto2">
+      <h2>Feito pra você!</h2>
+    </section>
+    <div class="container row mx-auto">
+      <div class="col-12 col-md-6 col-xxl-4 pb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Seguro de vida</h5>
+            <p class="card-text">
+              A vida é um presente valioso. Cuide dela com um seguro de vida!
+            </p>
+            <a class="btn btn-outline-info" href="https://api.whatsapp.com/send?phone=5516997926054&text=Ola,%20Vanda!%20Gostaria%20de%20mais%20informações!" class="btn btn-primary botao-lilas rounded-0 border-0"
+              >Ver mais</a
+            >
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-md-6 col-xxl-4 pb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Convênio médico</h5>
+            <p class="card-text">
+              Obtenha hoje mesmo um convênio médico.
+            </p>
+            <a class="btn btn-outline-info" href="https://api.whatsapp.com/send?phone=5516997926054&text=Ola,%20Vanda!%20Gostaria%20de%20mais%20informações!" class="btn btn-primary botao-lilas rounded-0 border-0"
+              >Ver mais</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="container row mx-auto g-4">
+          <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card rounded-0 border-0">
+              <img
+                class="d-md-none d-block"
+                src="./assets/amil.png" width="95" height="55px"
+                alt="Logo Amil Saúde."
+              />
+              <img
+                class="d-none d-md-block d-xl-none"
+                src="./assets/amil.png"
+                alt="Logo Amil Saúde."
+              />
+              <img
+                class="d-none d-xl-block"
+                src="./assets/amil.png"
+                alt="Logo Amil Saúde.."
+              />
+              
+            </div>
+          </div>
+    
+          <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card rounded-0 border-0">
+              <img
+                class="d-md-none d-block"
+                src="./assets/bradesco.png" width="95" height="55px"
+                alt="Bolsa feminina de couro na cor marrom, com cortes quadrados, e alça dourada em formato de corrente com detalhe verde, em fundo verde limão."
+              />
+              <img
+                class="d-none d-md-block d-xl-none"
+                src="./assets/bradesco.png"
+                alt="Bolsa feminina de couro na cor marrom, com cortes quadrados, e alça dourada em formato de corrente com detalhe verde, em fundo verde limão."
+              />
+              <img
+                class="d-none d-xl-block"
+                src="./assets/bradesco.png"
+                alt="Bolsa feminina de couro na cor marrom, com cortes quadrados, e alça dourada em formato de corrente com detalhe verde, em fundo verde limão."
+              />
+              
+            </div>
+          </div>       
+          <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card rounded-0 border-0">
+              <img
+                class="d-md-none d-block"
+                src="./assets/porto.png" width="95" height="55px"
+                alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+              />
+              <img
+                class="d-none d-md-block d-xl-none"
+                src="./assets/porto.png"
+                alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+              />
+              <img
+                class="d-none d-xl-block"
+                src="./assets/porto.png"
+                alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+              />
+              
+              
+            </div>  
+            </div>
+            <div class="col-6 col-md-4 col-xxl-2">
+              <div class="card rounded-0 border-0">
+                <img
+                  class="d-md-none d-block"
+                  src="./assets/rapv.png" width="95" height="55px"
+                  alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                />
+                <img
+                  class="d-none d-md-block d-xl-none"
+                  src="./assets/rapv.png"
+                  alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                />
+                <img
+                  class="d-none d-xl-block"
+                  src="./assets/rapv.png"
+                  alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                />
+                
+              </div>
+          </div>
+          <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card rounded-0 border-0">
+              <img
+                class="d-md-none d-block"
+                src="./assets/benevida.png" width="95" height="55px"
+                alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+              />
+              <img
+                class="d-none d-md-block d-xl-none"
+                src="./assets/benevida.png"
+                alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+              />
+              <img
+                class="d-none d-xl-block"
+                src="./assets/benevida.png"
+                alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+              />
+              
+            </div>
+            </div>
+            <div class="col-6 col-md-4 col-xxl-2">
+              <div class="card rounded-0 border-0">
+                <img
+                  class="d-md-none d-block"
+                  src="./assets/omint.png" width="95" height="55px"
+                  alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                />
+                <img
+                  class="d-none d-md-block d-xl-none"
+                  src="./assets/omint.png"
+                  alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                />
+                <img
+                  class="d-none d-xl-block"
+                  src="./assets/omint.png"
+                  alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                />
+                
+              </div>
+              </div>
+              <div class="col-6 col-md-4 col-xxl-2">
+                <div class="card rounded-0 border-0">
+                  <img
+                    class="d-md-none d-block"
+                    src="./assets/santacasa.png" width="95" height="55px"
+                    alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                  />
+                  <img
+                    class="d-none d-md-block d-xl-none"
+                    src="./assets/santacasa.png"
+                    alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                  />
+                  <img
+                    class="d-none d-xl-block"
+                    src="./assets/santacasa.png"
+                    alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                  />
+                  
+                </div>
+                </div>
+                <div class="col-6 col-md-4 col-xxl-2">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      class="d-md-none d-block"
+                      src="./assets/sulamerica.png" width="95" height="55px"
+                      alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                    />
+                    <img
+                      class="d-none d-md-block d-xl-none"
+                      src="./assets/sulamerica.png"
+                      alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                    />
+                    <img
+                      class="d-none d-xl-block"
+                      src="./assets/sulamerica.png"
+                      alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho."
+                    />
+                    
+                  </div>
+                  </div>
+                  
+      </section>
+    <section class="container p-4 pb-0 mb-4 text-center">
+      <a
+        class="btn"
+        href="https://api.whatsapp.com/send?phone=5516997926054&text=Ola,%20Vanda!%20Gostaria%20de%20mais%20informações!"
+        ><i class="bi bi-whatsapp"></i
+      ></a>
+      <a class="btn" href="mailto: sequoiaseguros@gmail.com"
+        ><i class="bi bi-envelope"></i
+      ></a>
+    </section>
+
+    <footer class="text-center bg-success text-bg-dark">
+      <p class="card-text py-3">
+        2024 <i class="bi bi-c-circle"></i> Desenvolvido por Grupo Bardini
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
